@@ -14,15 +14,18 @@ This project requires bash (git bash), cmake, and a C++17 compliant compiler
 (GCC, Clang, VC++). All of these tools are already installed on the cs lab
 machines for you to use.
 
-### Remote Development
+### Remote Development (Optional)
 
 There is a way to do remote development using GitHub Codespaces as described
 [here](https://shanepanter.com/teaching/vscode-tips-and-tricks.html#_developing_remotely_codespaces).
 Codespaces is unsupported by your instructor and only provided for those brave
 enough to venture out of the lab environment 😃.
 
-⚠ Be aware that Codespaces only gives you 60 hrs free per month so if
-you choose to use Codespaces you may incur some additional costs.
+⚠ Be aware that Codespaces only gives you 60 hrs free per month so if you choose
+to use Codespaces you may incur some additional costs. The Kount Computer
+Tutoring Center (CCP 241) is accessible 24/7 by proxy card to all students
+enrolled in CS courses. Machines in the Kount Computer Tutoring Center have all
+the software you will need this semester.
 
 ## CMake
 
