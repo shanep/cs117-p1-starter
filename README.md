@@ -37,13 +37,18 @@ able to take advantage of the address sanitizers that clang has.
 - [cmake](https://cmake.org/)
 - [clang](https://clang.llvm.org/)
 
-## Task 1 - Build
+## Task 1 - Write Hello World
 
-There are scripts in the root directory `clean.sh` and `release.sh`. One
-creates a release build to compile your project and the other will delete all
-the temporary files that are created during the build process.
+Open the file `main.cpp` and write a main function that outputs "Hello World!"
+as described in class.
 
-Run the `release.sh` script from the terminal to get setup your project. Note
+## Task 2 - Generate Build Files
+
+There are two scripts in the root directory named `clean.sh` and `release.sh`.
+One creates a release build to compile your project and the other will delete
+all the temporary files that are created during the build process.
+
+Run the `release.sh` script from the terminal to setup your project. Note
 that your output will be slightly different than what is shown below because
 cmake configures the build system specific to the system that it is running on.
 
@@ -77,8 +82,10 @@ cmake configures the build system specific to the system that it is running on.
 -- Build files have been written to:
 ```
 
-After you have run `release.sh` you can `cd` into the build directory and compile
-the program and then run the example tests.
+## Task 3 - Compile your code
+
+After you have run `release.sh` you can `cd` into the build directory to compile
+and run the program.
 
 ```bash
 [shanepanter@onyx os-starter]$ cd build/
@@ -93,11 +100,13 @@ Scanning dependencies of target myprogram
 [ 100%] Built target myprogram
 ```
 
-## Task 2 - Write Hello World
+If your code that you wrote in task 1 was correct you should see a executable
+named `myprogram` that you can now run to see the output. If your program did
+not compile you will need to return to task 1 and fix your code and then return
+to this task to compile your code again. You only need to run the `release.sh`
+script once if you are recompiling you can skip Task 2 above.
 
-Open the file `main.cpp` and write a main function that outputs "Hello World!"
-
-## Task 3 - Complete the Retrospective
+## Task 4 - Complete the Retrospective
 
 Once you have completed all the tasks open the file **Retrospective.md** and
 complete each section that has a TODO label.
@@ -117,8 +126,8 @@ For the **Sources used** section you must detail any sources you used outside of
 the textbook or course website. If you write NONE in this section it is assumed
 that you didn't use google at all. Be safe CITE!
 
-## Task 4 - Add, Commit, Push your code
+## Task 5 - Add, Commit, Push your code
 
 Once you are finished you need to make sure that you have pushed all your code
-to GitHub for grading! The Video walk through linked in the beginning of this
-document will show you how to accomplish this task.
+to GitHub for grading! You will not be submitting anything to canvas everything
+will be submitted through GitHub as demonstrated in class.
