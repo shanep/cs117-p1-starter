@@ -53,33 +53,16 @@ that your output will be slightly different than what is shown below because
 cmake configures the build system specific to the system that it is running on.
 
 ```bash
-[shanepanter@onyx os-starter]$ ./setup.sh
--- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
--- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
--- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
--- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
--- Performing Test COMPILER_HAS_DEPRECATED_ATTR
--- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
--- The C compiler identification is GNU 8.5.0
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Found Python: /usr/bin/python3.8
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
--- Looking for pthread_create in pthreads
--- Looking for pthread_create in pthreads - not found
--- Looking for pthread_create in pthread
--- Looking for pthread_create in pthread - found
--- Found Threads: TRUE
+shane|(master *%=):solution$ ./release.sh
+-- The CXX compiler identification is AppleClang 14.0.3.14030022
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to:
+-- Build files have been written to: ...
 ```
 
 ## Task 3 - Compile your code
@@ -88,16 +71,10 @@ After you have run `release.sh` you can `cd` into the build directory to compile
 and run the program.
 
 ```bash
-[shanepanter@onyx os-starter]$ cd build/
-[shanepanter@onyx build]$ make
-Scanning dependencies of target lab
-[  7%] Building CXX object src/CMakeFiles/lab.dir/lab.cpp.o
-[ 14%] Linking CXX shared library ../liblab.so
-[ 14%] Built target lab
-Scanning dependencies of target myprogram
-[ 21%] Building CXX object src/CMakeFiles/myprogram.dir/main.cpp.o
-[ 28%] Linking CXX executable ../myprogram
-[ 100%] Built target myprogram
+shane|(master *%=):build$ make
+[ 50%] Building CXX object src/CMakeFiles/myprogram.dir/solution.cpp.o
+[100%] Linking CXX executable ../myprogram
+[100%] Built target myprogram
 ```
 
 If your code that you wrote in task 1 was correct you should see a executable
