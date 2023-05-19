@@ -37,7 +37,7 @@ able to take advantage of the address sanitizers that clang has.
 - [cmake](https://cmake.org/)
 - [clang](https://clang.llvm.org/)
 
-## Task 1 - Write Hello World
+## Task 1 - Write the program
 
 Open the file `main.cpp` and write a main function that outputs "Hello World!"
 as described in class.
