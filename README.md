@@ -42,6 +42,13 @@ able to take advantage of the address sanitizers that clang has.
 Open the file `main.cpp` and write a main function that outputs "Hello World!"
 as described in class.
 
+### Sample output
+
+```bash
+shane|(master *=):build$ ./myprogram 
+Hello World
+```
+
 ## Task 2 - Generate Build Files
 
 There are two scripts in the root directory named `clean.sh` and `release.sh`.
