@@ -6,7 +6,7 @@ that all the correct tools are installed and then we will write the traditional
 
 ## Important Links
 
-- Review the [grading rubric](https://shanepanter.com/cs452/grading-rubric.html)
+- Review the [grading rubric](https://shanepanter.com/cs117/grading-rubric.html)
 
 ## Tools
 
