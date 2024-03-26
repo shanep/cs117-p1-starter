@@ -4,10 +4,6 @@ This assignment is intended to serve as a warm up assignment. We will make sure
 that all the correct tools are installed and then we will write the traditional
 [Hello World](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
 
-## Important Links
-
-- Review the [grading rubric](https://shanepanter.com/cs117/grading-rubric.html)
-
 ## Tools
 
 This project requires bash (git bash), cmake, and a C++17 compliant compiler
